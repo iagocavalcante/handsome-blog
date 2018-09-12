@@ -33,9 +33,6 @@ export default {
       type: Array
     }
   },
-  mounted() {
-    console.log(this.posts)
-  },
   methods: {
     returnImageLink ( imageName ) {
       return imageName ? `https://cdn-images-1.medium.com/max/800/${imageName}` : ''

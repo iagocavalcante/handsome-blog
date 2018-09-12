@@ -2887,7 +2887,7 @@ form label.error {
 
 .inner-intro {
     background-color: #f7f7f7;
-    height: 530px;
+    height: 100vh;
     display: block;
     position: relative;
 }
@@ -2920,7 +2920,6 @@ form label.error {
 }
 
 .page-breadcrumb {
-    background: rgba(255,255,255,0.9);
     padding: 4px 8px;
     display: inline-block;
     color: #323232;
