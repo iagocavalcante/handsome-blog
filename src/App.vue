@@ -45,6 +45,7 @@ export default {
   }),
   methods: {
     goTo (route) {
+      this.opened = !this.opened
       this.$router.push(route)
     },
     showMenu () {

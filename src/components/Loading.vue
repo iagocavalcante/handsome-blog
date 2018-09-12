@@ -10,7 +10,7 @@ export default {
   props: {
     mensagem: {
       type: String,
-      default: 'Postages'
+      default: 'Postagens'
     }
   }
 }
