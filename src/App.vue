@@ -38,7 +38,7 @@ export default {
       },
       {
         title: 'Portfólio',
-        route: '/'
+        route: '/portfolio'
       }
     ],
     opened: false

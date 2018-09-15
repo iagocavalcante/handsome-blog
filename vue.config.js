@@ -1,5 +1,6 @@
 module.exports = {
   pwa: {
-    name: 'Iago Cavalcante'
+    name: 'Iago Cavalcante',
+    themeColor: '#050505'
   }
 }
