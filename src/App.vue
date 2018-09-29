@@ -39,6 +39,10 @@ export default {
       {
         title: 'Portfólio',
         route: '/portfolio'
+      },
+      {
+        title: 'Certificados',
+        route: '/certificates'
       }
     ],
     opened: false

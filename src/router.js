@@ -38,6 +38,17 @@ export default new Router({
       // this generates a separate chunk (about.[hash].js) for this route
       // which is lazy-loaded when the route is visited.
       component: () => import(/* webpackChunkName: "about" */ './domains/Portfolio/Components/Portfolio.vue')
+    },
+    {
+      path: '/certificates',
+      name: 'certificates',
+      meta: {
+        title: 'Certificados' // Title must be a string.
+      },
+      // route level code-splitting
+      // this generates a separate chunk (about.[hash].js) for this route
+      // which is lazy-loaded when the route is visited.
+      component: () => import(/* webpackChunkName: "about" */ './domains/Certificates/Components/Certificates.vue')
     }
   ]
 })
