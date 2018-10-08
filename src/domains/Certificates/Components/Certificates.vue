@@ -57,31 +57,31 @@ export default {
         image: i9Gestao,
         name: 'i9 Gestão',
         type: 'Dashboard',
-        link: 'http://i9gestao.i9amazon.com.br/'
+        link: '#'
       },
       {
         image: i9Site,
         name: 'i9 Amazon',
         type: 'Dashboard Cliente, Site (Atualmente modificado)',
-        link: 'http://i9amazon.com.br/'
+        link: '#'
       },
       {
         image: Ouua,
         name: 'Ouua Painel',
         type: 'Dashboard',
-        link: 'http://painel.ouua.com.br/'
+        link: '#'
       },
       {
         image: OuuaProd,
         name: 'Ouua App',
         type: 'Android',
-        link: 'http://ouua.com.br/'
+        link: '#'
       },
       {
         image: Vila,
         name: 'Vila do Silício',
         type: 'Site, Blog',
-        link: 'http://viladosilicio.com.br/'
+        link: '#'
       }
     ]
   })
