@@ -6,7 +6,7 @@
 
         <div class="nf-item branding coffee spacing" :key="index" v-for="(port, index) in portfolio">
           <div class="item-box">
-            <a :href="port.link">
+            <a :href="port.link" target="_blank">
               <img alt="1" :src="port.image" class="item-container">
               <div class="item-mask">
                 <div class="item-caption">
@@ -24,14 +24,17 @@
 </template>
 
 <script>
-import Chopp from '@/assets/chopp.png'
-import Conceito from '@/assets/conceito.png'
-import i9Empresa from '@/assets/i9empresa.jpeg'
-import i9Gestao from '@/assets/i9gestao.jpeg'
-import i9Site from '@/assets/i9site.jpeg'
-import OuuaProd from '@/assets/ouua_prod.png'
-import Ouua from '@/assets/ouua.png'
-import Vila from '@/assets/vila.jpeg'
+import Chopp from '@/assets/portfolio/chopp.png'
+import Conceito from '@/assets/portfolio/conceito.png'
+import i9Empresa from '@/assets/portfolio/i9empresa.jpeg'
+import i9Gestao from '@/assets/portfolio/i9gestao.jpeg'
+import i9Site from '@/assets/portfolio/i9site.jpeg'
+import OuuaProd from '@/assets/portfolio/ouua_prod.png'
+import Ouua from '@/assets/portfolio/ouua.png'
+import Vila from '@/assets/portfolio/vila.jpeg'
+import PersonalBoard from '@/assets/portfolio/personal-board.png'
+import QTube from '@/assets/portfolio/qtube.png'
+
 export default {
   data: () => ({
     portfolio: [
@@ -82,6 +85,18 @@ export default {
         name: 'Vila do Silício',
         type: 'Site, Blog',
         link: 'http://viladosilicio.com.br/'
+      },
+      {
+        image: PersonalBoard,
+        name: 'Personal Board',
+        type: 'Site, Application',
+        link: 'https://personal-board.netlify.com/'
+      },
+      {
+        image: QTube,
+        name: 'QTube',
+        type: 'Application',
+        link: 'https://iagocavalcante.github.io/qtube/'
       }
     ]
   })
