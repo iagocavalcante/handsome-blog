@@ -34,6 +34,7 @@ import Ouua from '@/assets/portfolio/ouua.png'
 import Vila from '@/assets/portfolio/vila.jpeg'
 import PersonalBoard from '@/assets/portfolio/personal-board.png'
 import QTube from '@/assets/portfolio/qtube.png'
+import SocioBicolor from '@/assets/portfolio/socio-login.png'
 
 export default {
   data: () => ({
@@ -77,6 +78,12 @@ export default {
       {
         image: OuuaProd,
         name: 'Ouua App',
+        type: 'Android',
+        link: 'http://ouua.com.br/'
+      },
+      {
+        image: SocioBicolor,
+        name: 'Aplicativo Sócio Bicolor',
         type: 'Android',
         link: 'http://ouua.com.br/'
       },
