@@ -17,6 +17,6 @@ export default class Product extends Api {
   }
 
   getAllMedium() {
-    return http.get('/medium')
+    return http.get('/medium/iagoangelimc')
   }
 }
