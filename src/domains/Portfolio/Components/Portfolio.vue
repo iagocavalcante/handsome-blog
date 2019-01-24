@@ -31,6 +31,7 @@ import i9Gestao from '@/assets/portfolio/i9gestao.jpeg'
 import i9Site from '@/assets/portfolio/i9site.jpeg'
 import OuuaProd from '@/assets/portfolio/ouua_prod.png'
 import Ouua from '@/assets/portfolio/ouua.png'
+import Medium from '@/assets/portfolio/medium.png'
 import Vila from '@/assets/portfolio/vila.jpeg'
 import PersonalBoard from '@/assets/portfolio/personal-board.png'
 import QTube from '@/assets/portfolio/qtube.png'
@@ -68,6 +69,12 @@ export default {
         name: 'i9 Amazon',
         type: 'Dashboard Cliente, Site (Atualmente modificado)',
         link: 'http://i9amazon.com.br/'
+      },
+      {
+        image: Medium,
+        name: 'Medium Clone',
+        type: 'Site',
+        link: 'https://iagocavalcante.github.io/medium'
       },
       {
         image: Ouua,
