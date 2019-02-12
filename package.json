@@ -9,19 +9,19 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "moment": "^2.23.0",
-    "vue": "^2.5.21",
+    "moment": "^2.24.0",
+    "vue": "^2.6.6",
     "vue-page-title": "^1.1.4",
     "vue-router": "^3.0.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^3.3.0",
-    "@vue/cli-plugin-eslint": "^3.3.0",
-    "@vue/cli-plugin-pwa": "^3.3.0",
-    "@vue/cli-service": "^3.3.0",
+    "@vue/cli-plugin-babel": "^3.4.0",
+    "@vue/cli-plugin-eslint": "^3.4.0",
+    "@vue/cli-plugin-pwa": "^3.4.0",
+    "@vue/cli-service": "^3.4.0",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.5.21"
+    "vue-template-compiler": "^2.6.6"
   },
   "eslintConfig": {
     "root": true,
