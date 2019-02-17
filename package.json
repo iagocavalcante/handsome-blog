@@ -9,7 +9,6 @@
   },
   "dependencies": {
     "axios": "^0.18.0",
-    "lodash": "^4.17.11",
     "moment": "^2.24.0",
     "vue": "^2.6.6",
     "vue-page-title": "^1.1.4",
@@ -20,9 +19,11 @@
     "@vue/cli-plugin-eslint": "^3.4.0",
     "@vue/cli-plugin-pwa": "^3.4.0",
     "@vue/cli-service": "^3.4.0",
+    "lodash": "^4.17.11",
     "node-sass": "^4.11.0",
     "sass-loader": "^7.1.0",
-    "vue-template-compiler": "^2.6.6"
+    "vue-template-compiler": "^2.6.6",
+    "webpack-dev-server": "^3.1.14"
   },
   "eslintConfig": {
     "root": true,
