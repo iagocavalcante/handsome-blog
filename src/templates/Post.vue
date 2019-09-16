@@ -23,7 +23,7 @@
       </div>
 
       <div class="post-comments">
-        <!-- Add comment widgets here -->
+        <vue-disqus shortname="iagocavalcante-github-io" :identifier="$page.post.title"></vue-disqus>
       </div>
     </section>
   </Layout>
@@ -74,7 +74,7 @@ query Post ($path: String!) {
 <style lang="scss">
 
 .post-title {
-  padding: calc(var(--space) / 2) 0 calc(var(--space) / 2);
+  padding: calc(3.5rem / 2) 0 calc(3.5rem / 2);
   text-align: center;
 }
 
@@ -93,12 +93,12 @@ query Post ($path: String!) {
 
 
   &__header {
-    width: calc(100% + var(--space) * 2);
-    margin-left: calc(var(--space) * -1);
-    margin-top: calc(var(--space) * -1);
-    margin-bottom: calc(var(--space) / 2);
+    width: calc(100% + 3.5rem * 2);
+    margin-left: calc(3.5rem * -1);
+    margin-top: calc(3.5rem * -1);
+    margin-bottom: calc(3.5rem / 2);
     overflow: hidden;
-    border-radius: var(--radius) var(--radius) 0 0;
+    border-radius: 5px 5px 0 0;
     
     img {
       width: 100%;
@@ -121,8 +121,8 @@ query Post ($path: String!) {
     }
 
     img {
-      width: calc(100% + var(--space) * 2);
-      margin-left: calc(var(--space) * -1);
+      width: calc(100% + 3.5rem * 2);
+      margin-left: calc(3.5rem * -1);
       display: block;
       max-width: none;
     }
@@ -130,7 +130,7 @@ query Post ($path: String!) {
 }
 
 .post-comments {
-  padding: calc(var(--space) / 2);
+  padding: calc(3.5rem / 2);
   
   &:empty {
     display: none;
@@ -138,6 +138,6 @@ query Post ($path: String!) {
 }
 
 .post-author {
-  margin-top: calc(var(--space) / 2);
+  margin-top: calc(3.5rem / 2);
 }
 </style>
