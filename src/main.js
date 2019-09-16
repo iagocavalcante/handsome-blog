@@ -1,16 +1,13 @@
-import Vue from 'vue'
-import App from './App.vue'
-import Plugin from './service/Plugin'
-import router from './router'
-import VuePageTitle from 'vue-page-title'
+// This is the main.js file. Import global CSS and scripts here.
+// The Client API can be used here. Learn more: gridsome.org/docs/client-api
 
-Vue.use(VuePageTitle, { router })
+import DefaultLayout from '~/layouts/Default.vue'
+import '~/assets/bootstrap.css'
+import '~/assets/style.css'
+import '~/assets/font-awesome.css'
+import '~/assets/menu.css'
 
-Vue.config.productionTip = false
-
-Vue.use(Plugin)
-
-new Vue({
-  router,
-  render: h => h(App)
-}).$mount('#app')
+export default function (Vue, { router, head, isClient }) {
+  // Set default layout as a global component
+  Vue.component('Layout', DefaultLayout)
+}

@@ -1,5 +1,4 @@
 <template>
-  <!-- Intro Section -->
   <section class="inner-intro">
     <div class="container">
       <div class="row title">
@@ -14,6 +13,3 @@
     </div>
   </section>
 </template>
-
-<style scoped>
-</style>
