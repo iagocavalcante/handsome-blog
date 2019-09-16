@@ -1,6 +1,7 @@
 ---
 title: "A Google Play Store agora está aberta para\_PWA's"
 date: 2019-09-15T23:51:14.773Z
+cover_image: ''
 tags:
   - vuejs
 description: "A Google Play Store agora está aberta para\_PWA's\n\nObs.: Essa é uma tradução do artigo Google Play Store now open for Progressive Web Apps do Maximiliano Firtman.\n\nIsenção de responsabilidade: não sou afiliado ao Google Play, Chrome ou qualquer outra empresa mencionada. Esta não é uma declaração oficial; o uso do logotipo e nome é apenas para ilustração.O Chrome 72 para Android lançou o muito aguardado recurso Trusted Web Activity, que significa que agora podemos distribuir PWAs na Google Play Store! Eu brinquei com o recurso por um tempo, investigando as APIs e aqui você tem um resumo do que está acontecendo, o que esperar e como usá-lo hoje.\n\nEste artigo é uma introdução e estou trabalhando em uma série de tutoriais, portanto, se você tiver interesse nisso, siga-me no Twitter ou assine minha newsletter."
