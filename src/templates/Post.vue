@@ -130,7 +130,9 @@ query Post ($path: String!) {
 }
 
 .post-comments {
+  max-width: 960px;
   padding: calc(3.5rem / 2);
+  margin: 0 auto;
   
   &:empty {
     display: none;

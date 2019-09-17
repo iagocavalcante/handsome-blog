@@ -15,7 +15,7 @@
                     <g-image alt="Cover image" v-if="post.node.coverImage" class="post-card__image" :src="post.node.coverImage" />
                   </div>
                   <div class="post-header">
-                    <h4><a target="_blank">{{post.node.title}}</a></h4>
+                    <h4><a :href="post.node.path">{{post.node.title}}</a></h4>
                   </div>
                   <p class="post-entry" v-html="post.node.description" />
                   <AppPostMeta class="post-meta" :post="post.node" />
