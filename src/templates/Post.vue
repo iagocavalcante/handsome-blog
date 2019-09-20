@@ -154,7 +154,6 @@ pre {
 
 code {
   background-color: #fffbf3;
-  // border: 1px solid rgba(0,0,0,.1);
   font-size: .85em;
   padding: .2em .5em;
 }

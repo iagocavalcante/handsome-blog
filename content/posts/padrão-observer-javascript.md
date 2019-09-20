@@ -8,15 +8,7 @@ tags:
   - design-patterns
 coverImage: /images/uploads/observer-pattern.jpeg
 description: >-
-  > É um padrão de design de software no qual um objeto (chamado de `Subject`),
-  mantém uma lista de seus dependentes (`Observers`) e os notifica
-  automaticamente sobre qualquer alteração de estado, geralmente invocando um de
-  seus métodos.
-
-
-  Este padrão define um relacionamento um para muitos; Assim, quando um objeto
-  (`subject`) é atualizado, ele notifica todos outros objetos (`observers`) de
-  que eles foram atualizados.
+  Neste artigo estaremos começando uma série de posts/estudos sobre padrões de projeto de software e como podemos usá-los com javascript. Esse será o primeiro artigo e nele falo brevemente sobre o padrão observer e tento mostrar na prática como funciona. Estaremos criando uma mini biblioteca que torna nossa aplicação reativa, bem similar ao que React ou Vue fazem.
 ---
 ## O que é o Padrão Observer 
 
