@@ -46,7 +46,7 @@ Para implementar os padrões de projeto temos que ter em mente que a grande maio
 
 Nós teremos a classe Subject que irá manter uma lista de Observers que precisam ser notificados quando ocorrer uma atualização e também terá outras responsabilidades como adicionar ou remover Observers.
 
-## Classe Observer
+### Classe Observer
 
 O objetivo da classe Observer é implementar um método update() que será chamado pelo método Subject notify(). Onde o update será responsável por renderizar o elemento novamente.
 
