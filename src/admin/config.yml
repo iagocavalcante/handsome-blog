@@ -22,4 +22,3 @@ collections:
       - { label: "Cover Image", name: "coverImage", widget: "image", required: false  }
       - { label: "Description", name: "description", widget: "markdown" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "video", name: "video", widget: "youtube" }
