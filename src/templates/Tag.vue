@@ -63,6 +63,18 @@ export default {
 </script>
 
 <style lang="scss">
-
+.post-tags {
+  margin: 1em 0 0;
+  &__link {
+  	margin-right: .7em;
+  	font-size: .8em;
+  	color: currentColor;
+  	text-decoration: none;
+  	background-color: #F3F7F9;
+  	color: currentColor!important; //Todo: remove important;
+  	padding: .5em;
+  	border-radius: 5px;
+  }
+}
 </style>
 
