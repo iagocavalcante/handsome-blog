@@ -117,7 +117,7 @@ query Post ($path: String!) {
 
     p:first-of-type {
       font-size: 1.2em;
-      color: var(--title-color);
+      color: #111;
     }
 
     img {
@@ -144,17 +144,17 @@ query Post ($path: String!) {
 }
 
 pre {
-  padding: calc(var(--space) / 2);
+  padding: calc(3.5rem / 2);
   font-size: .85em;
-  background-color: var(--bg-code);
+  background-color: #fffbf3;
   margin-bottom: 2em;
-  border: 1px solid var(--border-color);
-  border-radius: var(--radius);
+  border: 1px solid rgba(0,0,0,.1);
+  border-radius: 5px;
 }
 
 code {
-  background-color: var(--bg-code);
-  border: 1px solid var(--border-color);
+  background-color: #fffbf3;
+  // border: 1px solid rgba(0,0,0,.1);
   font-size: .85em;
   padding: .2em .5em;
 }
@@ -194,7 +194,7 @@ pre[class*="language-"] {
 
 /* Inline code */
 :not(pre) > code[class*="language-"] {
-	border-radius: var(--radius);
+	border-radius: 5px;
 	white-space: normal;
 }
 

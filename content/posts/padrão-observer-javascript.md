@@ -1,12 +1,12 @@
 ---
-title: '# Padrão Observer - Javascript'
+title: 'Padrão Observer - Javascript'
 date: 2019-09-20T05:14:24.413Z
 tags:
   - javascript
   - js
   - padrões-projeto
   - design-patterns
-coverImage: /images/uploads/whatsapp-image-2019-09-19-at-22.06.00.jpeg
+coverImage: /images/uploads/observer-pattern.jpeg
 description: >-
   > É um padrão de design de software no qual um objeto (chamado de `Subject`),
   mantém uma lista de seus dependentes (`Observers`) e os notifica
@@ -58,7 +58,7 @@ O objetivo da classe Observer é implementar um método update() que será chama
 
 Vamos ver como seria esse código na prática implementando uma mini lib de estados e renderização similar ao que o `React` faz. Nosso projetinho será o famoso *TODO list*.
 
-- Subject: aqui teremos o contrato/métodos que serão implementados ou herdados, ele é reponsável por notificar todos os observadores.
+Subject: aqui teremos o contrato/métodos que serão implementados ou herdados, ele é reponsável por notificar todos os observadores.
 
 ``` javascript
 class Subject {
@@ -84,7 +84,7 @@ export default Subject
 
 ```
 
-- Observer: aqui vemos o contrato do obersevador, onde ele tem um método para atualização dos seus objetos.
+Observer: aqui vemos o contrato do obersevador, onde ele tem um método para atualização dos seus objetos.
 
 ```javascript
 class Observer {
@@ -95,7 +95,7 @@ export default Observer
 
 ```
 
-- Store: responsável por manter o estado da nossa aplicação, ele assina o contrato/herda de Subject, nele temos como recuperar um estado usando método `get()` e temos como atualizar usando método `update()` onde dentro dele é executado o método `notify()`, responsável por atualizar a aplicação passando o estado.
+Store: responsável por manter o estado da nossa aplicação, ele assina o contrato/herda de Subject, nele temos como recuperar um estado usando método `get()` e temos como atualizar usando método `update()` onde dentro dele é executado o método `notify()`, responsável por atualizar a aplicação passando o estado.
 
 ```javascript
 import Subject from './Subject'

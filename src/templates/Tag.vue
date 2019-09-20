@@ -19,7 +19,7 @@
                   </div>
                   <p class="post-entry" v-html="post.node.description" />
                   <AppPostMeta class="post-meta" :post="post.node" />
-                  <AppPostTags class="post-tag pull-left" :post="post.node" />
+                  <AppPostTags class="post-tags pull-left" :post="post.node" />
                   <g-link class="post-more-link pull-right" :to="post.node.path">Leia mais<i class="fa fa-long-arrow-right right"></i></g-link>
                 </div>
               </div>
