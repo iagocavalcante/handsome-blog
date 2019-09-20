@@ -2,10 +2,7 @@ module.exports = {
   siteName: 'Iago Cavalcante',
   plugins: [
     {
-      use: `gridsome-plugin-netlify-cms`,
-      options: {
-        plugins: [`netlify-cms-widget-youtube`]
-      }
+      use: `gridsome-plugin-netlify-cms`
     },
     {
       // Create posts from markdown files
