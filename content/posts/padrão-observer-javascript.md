@@ -1,5 +1,5 @@
 ---
-title: 'Padrão Observer - Javascript'
+title: Padrão Observer - Javascript
 date: 2019-09-20T05:14:24.413Z
 tags:
   - javascript
@@ -8,7 +8,11 @@ tags:
   - design-patterns
 coverImage: /images/uploads/observer-pattern.jpeg
 description: >-
-  Neste artigo estaremos começando uma série de posts/estudos sobre padrões de projeto de software e como podemos usá-los com javascript. Esse será o primeiro artigo e nele falo brevemente sobre o padrão observer e tento mostrar na prática como funciona. Estaremos criando uma mini biblioteca que torna nossa aplicação reativa, bem similar ao que React ou Vue fazem.
+  Neste artigo estaremos começando uma série de posts/estudos sobre padrões de
+  projeto de software e como podemos usá-los com javascript. Esse será o
+  primeiro artigo e nele falo brevemente sobre o padrão observer e tento mostrar
+  na prática como funciona. Estaremos criando uma mini biblioteca que torna
+  nossa aplicação reativa, bem similar ao que React ou Vue fazem.
 ---
 ## O que é o Padrão Observer 
 
@@ -18,7 +22,7 @@ Este padrão define um relacionamento um para muitos; Assim, quando um objeto (`
 
 Quando começamos a estudar padrões de projeto, é difícil imaginar quando podemos usar ou como podemos identificar se estão sendo usados e aonde estariam aplicados.
 
-Se pararmos pra pensar, ele é utilizado por muitas aplicações e frameworks na web. Um dos exemplos que me vieram à cabeça ao estudar o padrão recentemente foi o "Framework Progressivo" VueJs e a lib React. De fato, é assim que a reatividade funciona em alguns desses framework's.
+Se pararmos pra pensar, ele é utilizado por muitas aplicações e frameworks na web. Alguns exemplos que me vieram à cabeça ao estudar o padrão recentemente foi o "Framework Progressivo" VueJs e a lib React. De fato, é assim que a reatividade funciona em alguns desses framework's.
 
 Imagine que temos vários estados na nossa aplicação e queremos que os estados sejam atualizados quando algo importante acontece.
 
