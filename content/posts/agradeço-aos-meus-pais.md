@@ -1,5 +1,5 @@
 ---
-title: '# Agradeço aos meus pais'
+title: Agradeço aos meus pais
 date: 2019-11-22T16:39:07.176Z
 tags:
   - nao-tecnico
