@@ -115,7 +115,7 @@ query Post ($path: String!) {
       margin-top: 0;
     }
 
-    p:first-of-type {
+    p {
       font-size: 1.2em;
       color: #111;
     }
