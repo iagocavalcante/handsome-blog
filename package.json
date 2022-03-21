@@ -1,6 +1,11 @@
 {
   "name": "handsome-blog",
-  "private": true,
+  "private": false,
+  "version": "1.0.1",
+  "author": {
+    "name": "Iago Cavalcante",
+    "email": "iagoangelimc@gmail.com"
+  },
   "scripts": {
     "build": "gridsome build",
     "develop": "gridsome develop",
