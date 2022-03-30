@@ -5,6 +5,7 @@ tags:
   - javascript
   - react
   - nextjs
+coverImage: /images/uploads/undraw_share_link_re_54rx.png
 description: Neste breve artigo, estarei mostrando como resolvemos uma
   funcionalidade de compartilhamento de conteúdo onde o link é enviado por email
   e o usuário tem a possibilidade de clicar e ir para o site com as opções de
